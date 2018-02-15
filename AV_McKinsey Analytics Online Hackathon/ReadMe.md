@@ -1,14 +1,17 @@
-# McKinsey Analytics Online Hackathon Solution- Ziron
+# [McKinsey Analytics Online Hackathon Solution](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/)- Ziron
 
 ## Approach
 
 Final model is an ensemble of (part:1 weighted average output of 1 XGB(gbtree), 1 XGB(dart) and 1 RFs) and (part:2 stacked output of 3 LGBs and 3 XGBs) on the same preprocessing steps. The heavy ensemble approach along with basic preprocessing steps and basic feature engineering helped in making stable predictions based on internal validation.
 
-Scores 0.8542547819 on [Public LB](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/lb) - 38th position and scores 0.8547508143 on [Private LB](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/pvt_lb) - 3rd position with internal CV ~0.850
+## Scores
+[Public LB](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/lb) -- 0.8542547819 -- 38th position
+[Private LB](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/pvt_lb) -- 0.8547508143 -- 3rd position 
+Internal CV ~0.850
 
 Note: I have uploaded code only for the first part of the models as the improvement is not significant with complete ensemble.
 
-Feature engineering:
+## Feature engineering
 1. Date features (day, dayofweek, month, ...) for both DOB, Lead_Creation_Date
 2. Age (Lead_Creation_Date - DOB)
 3. Ratio of Loan amount and Loan period
