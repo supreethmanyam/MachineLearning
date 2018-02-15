@@ -5,8 +5,8 @@
 Final model is an ensemble of (part:1 weighted average output of 1 XGB(gbtree), 1 XGB(dart) and 1 RFs) and (part:2 stacked output of 3 LGBs and 3 XGBs) on the same preprocessing steps. The heavy ensemble approach along with basic preprocessing steps and basic feature engineering helped in making stable predictions based on internal validation.
 
 ## Scores
-[Public LB](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/lb) -- 0.8542547819 -- 38th position
-[Private LB](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/pvt_lb) -- 0.8547508143 -- 3rd position 
+[Public LB](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/lb) -- 0.8542547819 -- 38th position <br/>
+[Private LB](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/pvt_lb) -- 0.8547508143 -- 3rd position <br/>
 Internal CV ~0.850
 
 Note: I have uploaded code only for the first part of the models as the improvement is not significant with complete ensemble.
