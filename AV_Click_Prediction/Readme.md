@@ -1,5 +1,5 @@
 
-# (Analytics Vidhya - Click Prediction Hackathon)[https://datahack.analyticsvidhya.com/contest/click-prediction/]
+# [Analytics Vidhya - Click Prediction Hackathon](https://datahack.analyticsvidhya.com/contest/click-prediction/)
 ## Supreeth Manyam (ziron) Final submission
 
 Scores 20.925 7th on the (Public leaderboard)[https://datahack.analyticsvidhya.com/contest/click-prediction/lb] and scores 19.942 4th on the (Private leaderboard)[https://datahack.analyticsvidhya.com/contest/click-prediction/pvt_lb]
