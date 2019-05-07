@@ -1,2 +1,2 @@
-# Analytics_Vidhya
-Codes of Analytics Vidhya competitons.
+# Machine Learning
+Code related to my work and competitions in Machine Learning.
